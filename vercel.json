@@ -2,10 +2,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/buyer", "destination": "/buyer/buyer-feed.html" },
-    { "source": "/farmer", "destination": "/farmer/farmer-dashboard.html" },
-    { "source": "/inventory", "destination": "/farmer/farmer-inventory.html" },
-    { "source": "/inbox", "destination": "/farmer/farmer-inbox.html" },
-    { "source": "/finder", "destination": "/farmer/farmer-finder.html" }
+    { "source": "/buyer", "destination": "/buyer-feed/buyer-feed.html" },
+    { "source": "/buyer-feed", "destination": "/buyer-feed/buyer-feed.html" }
   ]
 }
